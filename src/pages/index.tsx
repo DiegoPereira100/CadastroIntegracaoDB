@@ -3,11 +3,11 @@ export default function Home() {
   return (
 
     <div className={`
-    flex h-screen justify-center items-center
-    bg-gradient-to-r from-purple-500 via-yellow-500 to-blue-600
-
+        flex justify-center items-center h-screen
+        bg-gradient-to-r from-black via-blue-600 to-white
+        text-white
     `}>
-      <span>Text</span>
+      <span>App</span>
     </div>  
 
   )
